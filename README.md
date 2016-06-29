@@ -1,2 +1,2 @@
-# Maheen-A.github.io
+# maheen-a.github.io
 Engineering Website Created for School
