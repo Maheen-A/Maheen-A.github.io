@@ -1,0 +1,193 @@
+@font-face{
+    font-family: navFont;
+    src:url(../Font/navFont.ttf);
+}
+@font-face{
+    font-family: title;
+    src:url(../Font/Aaargh.ttf);
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+h1{
+  padding: 150px;
+  color:#899BA9;
+  font-size: 80px;
+  text-align: center;
+  font-family: title;
+}
+
+footer{
+  margin:20px 0 10px 0;
+  color:#616D7F;
+  font-size: 12px;
+  text-align: center;
+  font-family: navFont;
+
+}
+
+#images {
+  width: 100%;
+  margin-right: 20px;
+}
+
+#head{
+  width: 100%;
+  height: 350px;
+  background-image: url(../Img/Header.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*-----NAV---*/
+nav{
+    line-height:30px;
+    color:#000000;
+    height:100px;
+    width:100%;
+    float:left;
+    padding: 5px
+    display: inline;
+}
+ul#menu {
+    padding: 0;
+    float:right;
+}
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+     color:#616D7F;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: navFont;
+    font-size: 20px;
+}
+
+ul#menu li a:hover {
+  color:#B8A3B6 ;
+
+}
+.floating-box {
+    float: left;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border: 3px solid #73AD21;
+}
+
+.after-box {
+    clear: left;
+    border: 3px solid red;
+}
+/*----END OF NAV BAR----*/
+#back{
+  position: fixed;
+  bottom: 15;
+  right: 5;
+}
+.myButton {
+  background-image: url(../Img/back.png);
+  background-repeat: no-repeat;
+  padding:12px 20px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+  background-image: url(../Img/back2.png);
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
+
+
+
+}
+div#blogText{
+  background-size: contain;
+  width:75%;
+  position: center;
+}
+
+/*Side Bar*/
+
+div.sideBar{
+  background-image: url(../Img/blueGrayPattern.png);
+  border-radius: 20px;
+  float: center;
+  right: 10;
+  font: navFont;
+  position: fixed;
+  bottom: 50;
+
+}
+
+ul#SB {
+    padding: 0;
+    float:right;
+}
+ul#SB li {
+    list-style-type: none;
+}
+
+ul#SB li a {
+     color:#616D7F;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: navFont;
+    font-size: 20px;
+}
+
+ul#SB li a:hover {
+  color:#B8A3B6 ;
+
+}
+
+/*Blogs*/
+
+div.blogs{
+  border-radius: 50px;
+  margin: 60px;
+  right: 60;
+  background-image: url(../Img/pattern.png);
+  width: 93%;
+  position: center;
+}
+
+.BlogPost{
+  background-image: url(../Img/pinkPattern.png);
+  border-radius: 40px;
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-bottom:10px;
+  margin-top: 10px;
+  padding: 50px;
+  font-family:navFont;
+
+}
+.BlogPost1{
+  background-image: url(../Img/blueGrayPattern.png);
+  border-radius: 40px;
+  margin-right: 250px;
+  margin-left: 250px;
+  margin-bottom:10px;
+  margin-top: 10px;
+  padding: 50px;
+  font-family:navFont;
+
+}
+#blogTitle{
+  font-family: title;
+  font-size: 30px;
+}
+
+#aboutMe{
+  font-family: navFont;
+  font-size: 18px;
+}
